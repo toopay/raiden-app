@@ -69,5 +69,8 @@ func main() {
 
 	f.Generate.Bind(cmd)
 
-	cmd.Execute()
+	err := cmd.Execute()
+	if err != nil {
+		panic(err)
+	}
 }
