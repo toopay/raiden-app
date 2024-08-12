@@ -1,0 +1,9 @@
+ignore:
+  - "cmd"         
+coverage:
+  range: 60..70
+  status:
+    project:
+      default:
+        target: 71%
+        threshold: 1%
